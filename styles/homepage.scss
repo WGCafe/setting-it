@@ -98,7 +98,22 @@
   padding: 20px 10px;
 
   .subtitle {
-    margin: 30px 0;
+    margin-top: 30px;
+  }
+
+  &__section-title {
+    transform: translateY(60%);
+    -webkit-transform: translateY(60%);
+    -moz-transform: translateY(60%);
+    -ms-transform: translateY(60%);
+  }
+
+  &__content {
+    padding: 15% 0;
+    background-image: url(../img/procuction-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
   }
 
   &__img {
@@ -200,6 +215,7 @@
   &__title {
     display: inline-block;
     padding: 5px 20px;
+    margin: 20px 0;
     background: -moz-linear-gradient(left, $theme-color-1, transparent); /*Mozilla*/
     background: -webkit-gradient(linear, 0 50%, 100% 50%, from($theme-color-1), to(transparent)); /*Old gradient for webkit*/
     background: -webkit-linear-gradient(left, $theme-color-1, transparent); /*new gradient for Webkit*/
@@ -209,8 +225,15 @@
     border-radius: 20px;
   }
 
+  &__advantage-article {
+    padding: 0 20px 20px;
+    max-width: 400px;
+    line-height: 1.7em;
+    letter-spacing: 2px;
+  }
+
   &__project {
-    padding: 50px 0;
+    padding: 80px 0;
   }
 
   &__project-title {
@@ -222,12 +245,85 @@
   }
 
   &__project-item {
-    padding: 3px;
+    padding: 2px;
     background: -moz-linear-gradient(left, $theme-color-1, $theme-color-2); /*Mozilla*/
     background: -webkit-gradient(linear, 0 50%, 100% 50%, from($theme-color-1), to($theme-color-2)); /*Old gradient for webkit*/
     background: -webkit-linear-gradient(left, $theme-color-1, $theme-color-2); /*new gradient for Webkit*/
     background: -o-linear-gradient(left, $theme-color-1, $theme-color-2); /*Opera11*/
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2); /*IE<9>*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2)"; /*IE8+*/
+  }
+
+  &__project-item-content {
+    background-color: $white;
+    min-height: 170px;
+  }
+}
+
+.client {
+  padding: 70px 0;
+
+  &__content {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  &__item {
+    float: left;
+    border: 1px solid $border-color;
+    width: 22%;
+    min-height: 150px;
+  }
+
+  &__item ~ &__item {
+    border-left: 0;
+  }
+
+  .row ~ .row  &__item,
+  .row ~ .row  &__item-logo {
+    border-top: 0;
+  }
+
+  &__item-logo {
+    float: left;
+    border: 1px solid $border-color;
+    border-left: 0;
+    width: 12%;
+    min-height: 150px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__logo-container {
+    padding: 20px 5px;
+    margin: -10px -1px -1px;
+    background: -moz-linear-gradient(left, $theme-color-1, $theme-color-2); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from($theme-color-1), to($theme-color-2)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, $theme-color-1, $theme-color-2); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, $theme-color-1, $theme-color-2); /*Opera11*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2); /*IE<9>*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2)"; /*IE8+*/
+  }
+}
+
+.contact {
+  .form {
+    position: relative;
+  }
+
+  .button {
+    span {
+      min-width: 100px;
+    }
+  }
+
+  &___button {
+    position: absolute;
+  }
+
+  &__pic {
+    max-width: 100%;
   }
 }

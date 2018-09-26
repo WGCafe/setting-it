@@ -17,6 +17,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+
+  min-width: 1200px;
 }
 
 h1 {
@@ -210,4 +212,59 @@ button {
   &__nav-switch-item ~ &__nav-switch-item {
     display: none;
   }
+}
+
+.form {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 420px;
+
+  &__group {
+    margin-bottom: 20px;
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  &__input-wrapper {
+    padding: 1px;
+    display: inline-block;
+    width: 100%;
+    background: -moz-linear-gradient(left, $theme-color-1, $theme-color-2); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from($theme-color-1), to($theme-color-2)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, $theme-color-1, $theme-color-2); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, $theme-color-1, $theme-color-2); /*Opera11*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2); /*IE<9>*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2)"; /*IE8+*/
+    border-radius: 4px;
+
+    &.textarea {
+      font-size: 0;
+    }
+  }
+
+  &__input {
+    padding: 6px 12px;
+    border: 0;
+    font-size: $main-font;
+    width: 100%;
+    background-color: $white;
+    border-radius: 4px;
+    resize: none;
+  }
+}
+
+.d-flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-middle {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
