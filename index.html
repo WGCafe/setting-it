@@ -10,10 +10,12 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/homepage.css">
 </head>
 
 <body>
@@ -23,112 +25,153 @@
 
   <!-- Add your site or application content here -->
   <header class="header">
-    <div>
+    <div class="container">
       <div class="header__logo">
         <a href="">
           <img src="./img/logo.png" alt="setting-it-logo">
         </a>
       </div>
-      <nav>
+      <nav class="header__nav">
         <ul>
-          <li>
+          <li class="header__nav-item text-middle">
             <a href="">Home</a>
           </li>
-          <li>
+          <li class="header__nav-item text-middle">
             <a href="">About Us</a>
           </li>
-          <li>
+          <li class="header__nav-item text-middle">
             <a href="">Branding Services</a>
           </li>
-          <li>
+          <li class="header__nav-item text-middle">
             <a href="">Marketing Strategy</a>
           </li>
-          <li>
+          <li class="header__nav-item text-middle">
             <a href="">Technical Support</a>
           </li>
-          <li>
+          <li class="header__nav-item text-middle">
             <a href="">Case Study</a>
           </li>
-          <li>
-            <ul>
-              <li>EN</li>
-              <li>中文</li>
+          <li class="header__nav-item text-top">
+            <ul class="header__nav-switch">
+              <li class="header__nav-switch-item">EN</li>
+              <li class="header__nav-switch-item">中文</li>
             </ul>
           </li>
         </ul>
       </nav>
-
-      <div class="banner">
-        <div>
-          <h1>SETTING IT  UNICORN</h1>
-          <p>一门心思，做行业的独角兽</p>
-          <button>
-            <span>Get Started</span>
-            <span>即时服务，制定专属方案</span>
-          </button>
-        </div>
-        <div></div>
-      </div>
-
     </div>
   </header>
   <div>
-    <!-- Branding Story -->
-    <section>
-      <div></div>
-      <div>
-        <div>
-          <h2>品牌故事</h2>
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="banner__content-container col-6">
+            <div class="banner__content">
+              <h1 class="banner__title">SETTING IT  UNICORN</h1>
+              <p class="banner__subtitle">一门心思，做行业的独角兽</p>
+              <button class="button">
+                <span class="button__main-text text-middle">Get Started</span>
+                <span class="button__sub-text text-middle">即时服务，定制专属方案</span>
+              </button>
+            </div>
+          </div>
+          <div class="banner__pic-container col-6">
+            <img style="width: 100%;" src="./img/banner-pic.png" alt="setting-it-banner">
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo </p>
+      </div>
+    </section>
+    <!-- end of Banner -->
+
+    <!-- Branding Story -->
+    <section class="branding">
+      <div class="container">
+        <div class="row">
+            <div class="col-6">
+              <div class="branding__content">
+                <div class="subtitle__container">
+                  <img class="subtitle__icon" src="./img/title-pic.png" alt="setting-it-title-pic">
+                  <h2 class="subtitle">品牌故事</h2>
+                </div>
+                <p class="branding__article">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo </p>
+              </div>
+            </div>
+        </div>
       </div>
     </section>
     <!-- end of Branding Story -->
 
     <!-- Production -->
-    <section>
-      <div>
-        <div>
-          <h2>公司产品</h2>
+    <section class="production">
+      <div class="container text-center">
+        <div class="subtitle__container">
+          <img class="subtitle__icon" src="./img/title-pic.png" alt="setting-it-title-pic">
+          <h2 class="subtitle">公司产品</h2>
         </div>
-        <ul>
-          <li>
-            <img src="" alt="">
-            <h3></h3>
+        <ul class="row">
+          <li class="col-4">
+            <img class="production__img" src="./img/procuction-icon-support.png" alt="">
+            <h3 class="production__title">企业技术支持</h3>
             <div>
-              <h4></h4>
-              <ul></ul>
+              <h4 class="production__subtitle">传统技术支持:</h4>
+              <ul class="production__list">
+                <li class="production__item">网站后端开发</li>
+                <li class="production__item">app开发</li>
+                <li class="production__item">企业管理系统搭建</li>
+              </ul>
             </div>
             <div>
-              <h4></h4>
-              <ul></ul>
-            </div>
-          </li>
-          <li>
-            <img src="" alt="">
-            <h3></h3>
-            <div>
-              <h4></h4>
-              <ul></ul>
-            </div>
-            <div>
-              <h4></h4>
-              <ul></ul>
+              <h4 class="production__subtitle">区块链技术支持:</h4>
+              <ul class="production__list">
+                <li class="production__item">智能合约开发</li>
+                <li class="production__item">智能合约代码审计</li>
+                <li class="production__item">钱包开发</li>
+                <li class="production__item">白皮书审计</li>
+                <li class="production__item">代币部署</li>
+              </ul>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
-            <h3></h3>
+          <li class="col-4">
+            <img class="production__img" src="./img/procuction-icon-branded.png" alt="">
+            <h3 class="production__title">企业品牌包装</h3>
             <div>
-              <h4></h4>
-              <ul></ul>
+              <h4 class="production__subtitle">传统品牌包装:</h4>
+              <ul class="production__list">
+                <li class="production__item">品牌设计、定位</li>
+                <li class="production__item">企业形象包装</li>
+                <li class="production__item">企业年报设计</li>
+                <li class="production__item">网站UI设计</li>
+              </ul>
             </div>
             <div>
-              <h4></h4>
-              <ul></ul>
+              <h4 class="production__subtitle">区块链设计:</h4>
+              <ul class="production__list">
+                <li class="production__item">白皮书设计</li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-4">
+            <img class="production__img" src="./img/procuction-icon-marketing.png" alt="">
+            <h3 class="production__title">市场宣传</h3>
+            <div>
+              <h4 class="production__subtitle">线上宣传</h4>
+              <ul class="production__list">
+                <li class="production__item">国内外公众号全网铺建与管理</li>
+                <li class="production__item">群建立及活动策划</li>
+                <li class="production__item">ICO媒体与评级</li>
+                <li class="production__item">国际KOL宣传</li>
+                <li class="production__item">国际顶级纸媒宣传</li>
+              </ul>
             </div>
             <div>
-              <h4></h4>
+              <h4 class="production__subtitle">线下宣传:</h4>
+              <ul class="production__list">
+                  <li class="production__item">精品路演活动</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="production__subtitle">专职区块链人才培训</h4>
             </div>
           </li>
         </ul>
@@ -136,44 +179,120 @@
     </section>
     <!-- end of Production -->
 
-    <!-- Advantage -->
-    <section>
-      <div>
-        <h2>SIU优势</h2>
-      </div>
-      <div>
+    <section class="ap">
+      <div class="container">
+        <!-- Advantage -->
         <div>
-          <ul>
-            <li>
-              <h3></h3>
-              <p></p>
-            </li>
-            <li>
-              <h3></h3>
-              <p></p>
-            </li>
-            <li>
-              <h3></h3>
-              <p></p>
-            </li>
-          </ul>
+          <div class="subtitle__container text-center">
+            <img class="subtitle__icon" src="./img/title-pic.png" alt="setting-it-title-pic">
+            <h2 class="subtitle">
+              <span>SIU优势</span>
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <ul>
+                <li>
+                  <h3 class="ap__title">一站式解决方案</h3>
+                  <p>为大中小型企业提供从品牌、技术到市场全套的解决方案，高效品质、省心之选。技术上SIU提供了传统和区块链两个方向的支持</p>
+                </li>
+                <li>
+                  <h3 class="ap__title">业内口碑</h3>
+                  <p>与各类交易所、投资机构关系良好、资源互通、走向共赢</p>
+                </li>
+                <li>
+                  <h3 class="ap__title">科技第一生产力</h3>
+                  <p>母公司香港互联网科技公司SETTING IT PTE LTD. 鼎力支持；SIU已自主研发了自动填报系统、实现更高效自动化的服务，减少沟通成本。</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <img src="" alt="">
+            </div>
+          </div>
         </div>
-        <div></div>
-      </div>
-    </section>
-    <!-- end of Advantage -->
+        <!-- end of Advantage -->
 
-    <!-- Projects -->
-    <section>
-      <div>
-        <h2>项目案例</h2>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
+        <!-- Projects -->
+        <div class="ap__project">
+          <div class="text-center">
+            <img class="subtitle__icon" src="./img/title-pic-white.png" alt="setting-it-title-pic">
+            <h2 class="ap__project-title">项目案例</h2>
+          </div>
+          <div>
+            <ul class="row">
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="row">
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+              <li class="col-3">
+                <div class="ap__project-item">
+                  <div>
+                    <img src="" alt="">
+                    <span></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of Projects -->
       </div>
     </section>
-    <!-- end of Projects -->
 
     <!--  -->
     <section>
