@@ -120,6 +120,11 @@ button {
   width: 66.666666%;
 }
 
+.col-9 {
+  float: left;
+  width: 75%;
+}
+
 .button {
   border: 0;
   color: $white;
@@ -214,6 +219,52 @@ button {
   }
 }
 
+.footer {
+  padding: 50px 10px;
+
+  &__base-info-container {
+    padding-right: 20px;
+  }
+
+  &__base-info {
+    padding: 10px 20px;
+  }
+
+  &__qrcode {
+    max-width: 70px;
+  }
+
+  &__info {
+    padding-left: 20px;
+    font-size: $small-font;
+
+    p {
+      margin: 5px 0 10px;
+      max-width: 200px;
+      line-height: 1.5em;
+      letter-spacing: 1px;
+    }
+
+    li {
+      display: inline-block;
+      line-height: 1.5em;
+      letter-spacing: 1px;
+    }
+
+    li ~ li {
+      margin-left: 20px;
+    }
+  }
+
+  &__divider {
+    border-top: 1px solid $theme-color-1;
+  }
+
+  &__logo {
+    max-width: 60%;
+  }
+}
+
 .form {
   padding: 0 10px;
   margin: 0 auto;
@@ -267,4 +318,21 @@ button {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+
+.social {
+  padding: 5px;
+
+  &__item {
+    display: inline-block;
+    margin: 0 2px;
+
+    a {
+      display: block;
+    }
+
+    img {
+      max-width: 24px;
+    }
+  }
 }

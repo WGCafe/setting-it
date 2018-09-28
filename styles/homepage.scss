@@ -309,6 +309,8 @@
 }
 
 .contact {
+  padding: 50px 10px;
+
   .form {
     position: relative;
   }
@@ -319,8 +321,16 @@
     }
   }
 
-  &___button {
+  &__button{
     position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 24px;
+
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
   }
 
   &__pic {

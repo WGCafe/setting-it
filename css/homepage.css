@@ -254,13 +254,22 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2)";
     /*IE8+*/ }
 
-.contact .form {
-  position: relative; }
-.contact .button span {
-  min-width: 100px; }
-.contact___button {
-  position: absolute; }
-.contact__pic {
-  max-width: 100%; }
+.contact {
+  padding: 50px 10px; }
+  .contact .form {
+    position: relative; }
+  .contact .button span {
+    min-width: 100px; }
+  .contact__button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 24px;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%); }
+  .contact__pic {
+    max-width: 100%; }
 
 /*# sourceMappingURL=homepage.css.map */

@@ -89,6 +89,10 @@ button {
   float: left;
   width: 66.666666%; }
 
+.col-9 {
+  float: left;
+  width: 75%; }
+
 .button {
   border: 0;
   color: #fff;
@@ -164,6 +168,33 @@ button {
   .header__nav-switch-item ~ .header__nav-switch-item {
     display: none; }
 
+.footer {
+  padding: 50px 10px; }
+  .footer__base-info-container {
+    padding-right: 20px; }
+  .footer__base-info {
+    padding: 10px 20px; }
+  .footer__qrcode {
+    max-width: 70px; }
+  .footer__info {
+    padding-left: 20px;
+    font-size: 12px; }
+    .footer__info p {
+      margin: 5px 0 10px;
+      max-width: 200px;
+      line-height: 1.5em;
+      letter-spacing: 1px; }
+    .footer__info li {
+      display: inline-block;
+      line-height: 1.5em;
+      letter-spacing: 1px; }
+    .footer__info li ~ li {
+      margin-left: 20px; }
+  .footer__divider {
+    border-top: 1px solid #56c7e7; }
+  .footer__logo {
+    max-width: 60%; }
+
 .form {
   padding: 0 10px;
   margin: 0 auto;
@@ -211,5 +242,15 @@ button {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
+
+.social {
+  padding: 5px; }
+  .social__item {
+    display: inline-block;
+    margin: 0 2px; }
+    .social__item a {
+      display: block; }
+    .social__item img {
+      max-width: 24px; }
 
 /*# sourceMappingURL=main.css.map */
