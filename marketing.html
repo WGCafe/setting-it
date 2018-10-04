@@ -15,7 +15,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/marketing.css">
 </head>
 
 <body>
@@ -24,45 +24,91 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header class="header">
-    <div class="container">
-      <div class="header__logo">
-        <a href="">
-          <img src="./img/logo.png" alt="setting-it-logo">
-        </a>
+  <div class="header-container">
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <a href="">
+            <img src="./img/logo.png" alt="setting-it-logo">
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__nav-item text-middle">
+              <a href="">Home</a>
+            </li>
+            <li class="header__nav-item text-middle">
+              <a href="">About Us</a>
+            </li>
+            <li class="header__nav-item text-middle">
+              <a href="">Branding Services</a>
+            </li>
+            <li class="header__nav-item text-middle">
+              <a href="">Marketing Strategy</a>
+            </li>
+            <li class="header__nav-item text-middle">
+              <a href="">Technical Support</a>
+            </li>
+            <li class="header__nav-item text-middle">
+              <a href="">Case Study</a>
+            </li>
+            <li class="header__nav-item text-top">
+              <ul class="header__nav-switch">
+                <li class="header__nav-switch-item">EN</li>
+                <li class="header__nav-switch-item">中文</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="header__nav">
-        <ul>
-          <li class="header__nav-item text-middle">
-            <a href="">Home</a>
-          </li>
-          <li class="header__nav-item text-middle">
-            <a href="">About Us</a>
-          </li>
-          <li class="header__nav-item text-middle">
-            <a href="">Branding Services</a>
-          </li>
-          <li class="header__nav-item text-middle">
-            <a href="">Marketing Strategy</a>
-          </li>
-          <li class="header__nav-item text-middle">
-            <a href="">Technical Support</a>
-          </li>
-          <li class="header__nav-item text-middle">
-            <a href="">Case Study</a>
-          </li>
-          <li class="header__nav-item text-top">
-            <ul class="header__nav-switch">
-              <li class="header__nav-switch-item">EN</li>
-              <li class="header__nav-switch-item">中文</li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <div>
+    </header>
+
+    <section class="header-general">
+      <div class="container">
+        <div class="row">
+          <div class="general__content-container col-6">
+            <div class="general__content">
+              <h1 class="general__title">SETTING IT UNICORN</h1>
+              <div class="segment-bar general__title-underline"></div>
+              <p class="general__subtitle">营销策略</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
+
+  <hr class="segment-bar" />
+
+  <section class="marketing section__container">
+    <div class="container">
+      <div class="subtitle__container text-center">
+        <img class="subtitle__icon" src="./img/title-pic.png" alt="setting-it-title-pic">
+        <h2 class="subtitle">营销策略</h2>
+        <div class="segment-bar subtitle__underline"></div>
+      </div>
+    </div>
+    <div class="section__content">
+      <div class="container">
+        If you insert a two content slide layout, for example, you will get three placeholders: one for the slide's
+        title, and two for the content. To add you own text, click in a placeholder and start typing. You can style the
+        text however you please, using the usual formatting options.
+        But how does PowerPoint know what placeholders should appear on each slide? This is determined by the slide
+        master. If you click View > Master Views > Slide Master, you can see all the slide layouts available for use in
+        your presentation. The layout on each is controlled by, among other things, the content placeholders on them.
+        Click on any slide layout to select it and you'll see the placeholders already present. You can add new
+        placeholders by clicking Insert Placeholder in the Mater Layout group of the Slide Master tab. If you click the
+        top half of the button, you'll add the same placeholder as you added last time, whereas if you click the bottom
+        half, you get a choice of placeholders to add.
+      </div>
+      <div class="container text-center marketing__file">
+        <div class="marketing__file-image">
+        </div>
+        <button class="marketing__file-button">Download the PDF</button>
+      </div>
+    </div>
+  </section>
 
   <footer class="footer">
     <div class="container row">
@@ -72,7 +118,7 @@
             <img class="footer__qrcode" src="./img/qrcode.png" alt="">
           </div>
           <div class="footer__info media-top">
-            <p>Republic Plaza 9 Raffles Place  #04-A02  Singapore 048619</p>
+            <p>Republic Plaza 9 Raffles Place #04-A02 Singapore 048619</p>
             <ul>
               <li>+65 83190680</li>
               <li>info@settingit.sg</li>
@@ -128,15 +174,23 @@
   <!-- end of Add your site or application content here -->
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>

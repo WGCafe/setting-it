@@ -551,6 +551,10 @@ button {
   margin-bottom: 15px;
 }
 
+.general__subtitle {
+  font-size: 20px;
+}
+
 .segment-bar.general__title-underline {
   margin-top: 10px;
   width: 75px;

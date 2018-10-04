@@ -1,0 +1,31 @@
+.header-container {
+    background-image: url('../img/service-header-bg.jpg');
+}
+
+.service__description {
+    padding-bottom: 60px;
+}
+
+.service__file {
+    padding-top: 20px;
+}
+
+.service__file-image {
+    background-image: url('../img/service-proposal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 1200px;
+    text-align: center;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.service__file-button {
+    background-color: #6ac6e4;
+    padding: 5px 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    color: white;
+}
