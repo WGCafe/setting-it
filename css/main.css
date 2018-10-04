@@ -517,13 +517,10 @@ button {
   -webkit-animation-duration: 14s;
   animation-duration: 14s; }
 
-/*# sourceMappingURL=main.css.map */
-
 .header-container {
   background-size: cover;
   background-position: 0% 0%;
 }
-
 
 .header-general {
   color: white;
@@ -577,4 +574,9 @@ hr.segment-bar {
 
 .section__container {
   padding: 40px 20px 80px 20px;
+}
+
+.section__content {
+  font-size: 16px;
+  line-height: 1.7;
 }
