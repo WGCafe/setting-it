@@ -1,0 +1,100 @@
+.aboutUs-general {
+    color: white;
+}
+
+.header-contanier {
+    background: no-repeat url('../img/about-header-bg.jpg');
+    background-size: cover;
+    background-position: 0% 0%;
+}
+
+.aboutUs-general .row {
+    position: relative;
+    height: 450px;
+}
+
+.general__content-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.general__content {
+    margin: auto;
+    max-width: 310px;
+}
+
+.general__title {
+    font-size: 42px;
+    line-height: 1.2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.segment-bar.general__title-underline {
+    margin-top: 10px;
+    width: 75px;
+}
+
+.general__subtitle {
+    font-size: 25px;
+}
+
+.segment-bar {
+    height: 4px;
+    width: 45px;
+    background-color: #6ac6e4;
+}
+
+.subtitle__underline {
+    margin: 40px auto;
+}
+
+hr.segment-bar {
+    margin: 0;
+    border-top: 6px solid #6ac6e4;
+    width: 100%;
+}
+
+.aboutUs {
+    padding: 40px 20px 80px 20px;
+}
+
+.aboutUs .subtitle {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.aboutUs__description {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.aboutUs__team {
+    background-color: #6ac6e4;
+    color: white;
+}
+
+.aboutUs__team .aboutUs__team-item {
+    padding: 40px;
+}
+
+.aboutUs__team-avatar {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.aboutUs__team-person {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.aboutUs__team-position {
+    font-size: 16px;
+    margin: 5px;
+}

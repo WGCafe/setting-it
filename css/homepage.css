@@ -1,5 +1,4 @@
-.banner {
-  padding-bottom: 100px;
+.header-container {
   background: -moz-linear-gradient(left, #56c7e7, #0d4dab);
   /*Mozilla*/
   background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#56c7e7), to(#0d4dab));
@@ -7,6 +6,9 @@
   background: -webkit-linear-gradient(left, #56c7e7, #0d4dab);
   /*new gradient for Webkit*/
   background: -o-linear-gradient(left, #56c7e7, #0d4dab);
+}
+.banner {
+  padding-bottom: 100px;
   /*Opera11*/
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2);
   /*IE<9>*/
@@ -39,6 +41,10 @@
     left: 50%; }
   .banner__image {
     width: 100%; }
+.subtitle {
+  color: #403c39; }
+  .subtitle:first-letter {
+    color: #56c7e7; }
 
 .branding {
   padding: 40px 10px; }
@@ -164,6 +170,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-2, endColorstr=$theme-color-1)";
     /*IE8+*/
     border-radius: 30px; }
+
     .ap .subtitle:first-letter {
       color: inherit; }
     .ap .subtitle span {
