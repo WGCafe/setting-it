@@ -574,3 +574,7 @@ hr.segment-bar {
   border-top: 6px solid #6ac6e4;
   width: 100%;
 }
+
+.section__container {
+  padding: 40px 20px 80px 20px;
+}

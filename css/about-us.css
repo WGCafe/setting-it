@@ -1,13 +1,5 @@
-.aboutUs-general {
-    color: white;
-}
-
 .header-container {
     background-image: url('../img/about-header-bg.jpg');
-}
-
-.aboutUs {
-    padding: 40px 20px 80px 20px;
 }
 
 .aboutUs .subtitle {
