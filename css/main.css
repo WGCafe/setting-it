@@ -518,3 +518,59 @@ button {
   animation-duration: 14s; }
 
 /*# sourceMappingURL=main.css.map */
+
+.header-container {
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+
+.header-general {
+  color: white;
+}
+
+.header-general .row {
+  position: relative;
+  height: 450px;
+}
+
+.general__content-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.general__content {
+  margin: auto;
+  max-width: 310px;
+}
+
+.general__title {
+  font-size: 42px;
+  line-height: 1.2em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.segment-bar.general__title-underline {
+  margin-top: 10px;
+  width: 75px;
+}
+
+.subtitle__underline {
+  margin: 40px auto;
+}
+
+.segment-bar {
+  height: 4px;
+  width: 45px;
+  background-color: #6ac6e4;
+}
+
+hr.segment-bar {
+  margin: 0;
+  border-top: 6px solid #6ac6e4;
+  width: 100%;
+}
