@@ -202,7 +202,7 @@
     line-height: 1.7em;
     letter-spacing: 2px; }
   .ap__image {
-    max-width: 100%; }
+    max-width: 108%; }
   .ap__project {
     padding: 80px 0; }
   .ap__project-title {
@@ -241,9 +241,8 @@
     max-width: 20%; }
   .ap__project-icon {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    height: 1%; }
+    text-align: center;
+  }
 
 .client {
   padding: 70px 10px 40px; }
@@ -385,3 +384,30 @@
     max-width: 100%; }
 
 /*# sourceMappingURL=homepage.css.map */
+
+.ap__icon-1 {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.ap__icon-2 {
+  position: absolute;
+  top: -2%;
+  left: 37%;
+}
+
+.ap__icon-3 {
+  position: absolute;
+  top: 15%;
+  left: 85%;
+}
+
+.ap__project-icon .icon {
+  width: 45px;
+}
+
+.ap__project-icon p {
+  font-size: 22px;
+  margin-top: 20px;
+}
