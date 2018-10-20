@@ -176,6 +176,11 @@ button {
     clear: both;
   }
 
+  .language {
+    position: relative;
+    min-width: 28px;
+    min-height: 22px;
+  }
 
   &__logo {
     float: left;
@@ -206,16 +211,24 @@ button {
   }
 
   &__nav-switch {
+    position: absolute;
+    left: 0;
+    top: 0;
     margin-left: 20px;
   }
 
   &__nav-switch-item {
     padding: 3px 0;
+    min-width: 28px;
     cursor: pointer;
   }
 
   &__nav-switch-item ~ &__nav-switch-item {
     display: none;
+  }
+
+  .language:hover &__nav-switch-item ~ &__nav-switch-item {
+    display: block;
   }
 }
 
