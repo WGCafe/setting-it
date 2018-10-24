@@ -8,11 +8,14 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
+  width: 100%;
   color: #2e2e2e;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  min-width: 1200px; }
+  min-width: 1200px;
+  overflow-x: hidden;
+ }
 
 h1 {
   font-size: 30px; }
@@ -145,12 +148,26 @@ button {
       display: block;
       padding: 15px 0; }
   .header__nav-switch {
+    position: absolute;
+    top: 0;
     margin-left: 20px; }
   .header__nav-switch-item {
     padding: 3px 0;
     cursor: pointer; }
   .header__nav-switch-item ~ .header__nav-switch-item {
     display: none; }
+  .header__nav-item.language {
+    position: relative;
+    min-width: 48px;
+  }
+  .header__nav-item.language li {
+    padding: 0;
+  }
+  .header__nav-item.language a {
+    padding: 3px 0;
+  }
+  .header__nav-item.language:hover .header__nav-switch-item ~ .header__nav-switch-item {
+    display: block; }
 
 .footer {
   padding: 100px 10px 50px 10px; }
@@ -528,7 +545,8 @@ button {
 
 .header-general .row {
   position: relative;
-  height: 450px;
+  min-height: 570px;
+  padding: 100px 0;
 }
 
 .general__content-container {
