@@ -205,6 +205,9 @@
 
     .ap .subtitle:first-letter {
       color: inherit; }
+    .advantage .subtitle span:first-letter {
+      color: #56c7e7;
+    }
     .ap .subtitle span {
       display: inline-block;
       padding: 7px 18px;
@@ -425,13 +428,13 @@
 .ap__icon-1 {
   position: absolute;
   top: 40%;
-  left: 15%;
+  left: 19%;
 }
 
 .ap__icon-2 {
   position: absolute;
-  top: -2%;
-  left: 37%;
+  top: 5%;
+  left: 38%;
 }
 
 .ap__icon-3 {
@@ -441,12 +444,12 @@
 }
 
 .ap__project-icon .icon {
-  width: 45px;
+  width: 35px;
 }
 
 .ap__project-icon p {
-  font-size: 22px;
-  margin-top: 20px;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 @media (max-width: 1200px) {
