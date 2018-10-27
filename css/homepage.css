@@ -16,6 +16,7 @@
 .banner {
   padding: 50px 0 200px;
   background-color: #fff;
+  background-size: 100% 100%;
   background-position: bottom center;
   color: #fff; }
   .banner .row {
@@ -99,7 +100,7 @@
     -moz-transform: translateY(60%);
     -ms-transform: translateY(60%); }
   .production__content {
-    padding: 10% 0;
+    padding: 14% 0 10%;
     background-image: url(../img/procuction-bg.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
