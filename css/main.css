@@ -80,9 +80,19 @@ button {
   float: left;
   width: 33.333333%; }
 
+.col-5 {
+  float: left;
+  width: 41.666666%;
+}
+
 .col-6 {
   float: left;
   width: 50%; }
+
+  .col-7 {
+    width: 58.333333%;
+    float: left;
+  }
 
 .col-8 {
   float: left;
