@@ -32,8 +32,14 @@
             <img src="./img/logo.png" alt="setting-it-logo">
           </a>
         </div>
+        <a class="mobile-menu tablet-show">
+          <img src="./img/menu.png" alt="" />
+        </a>
         <nav class="header__nav">
           <ul>
+            <li class="tablet-show">
+              <img class="header__close-button" src="./img/close.png" alt="">
+            </li>
             <li class="header__nav-item text-middle">
               <a href="/">主页</a>
             </li>
@@ -47,15 +53,15 @@
               <a href="/marketing.html">营销策略</a>
             </li>
             <li class="header__nav-item text-middle">
-              <a href="/tech.html">技术支持</a>
+              <a href="/tech.html">Technical Support</a>
             </li>
             <li class="header__nav-item text-middle">
-              <a href="">项目展示</a>
+              <a href="">技术支持</a>
             </li>
             <li class="header__nav-item text-top language">
               <ul class="header__nav-switch">
                 <li class="header__nav-switch-item">
-                  <a href="/">EN</a>
+                  <a href="#">EN</a>
                 </li>
                 <li class="header__nav-switch-item">
                   <a href="./index-zh.html">中文</a>
@@ -73,16 +79,6 @@
     <section class="banner">
       <div class="container">
         <div class="row">
-          <div class="banner__content-container col-6">
-            <div class="banner__content">
-              <h1 class="banner__title">SETTING IT UNICORN</h1>
-              <p class="banner__subtitle">一门心思，做行业的独角兽</p>
-              <button class="button">
-                <span class="button__main-text text-middle">Get Started</span>
-                <span class="button__sub-text text-middle">即时服务，定制专属方案</span>
-              </button>
-            </div>
-          </div>
           <div class="banner__pic-container col-6">
             <img class="banner__image animated floatUpDown infinite" src="./img/banner-pic.png" alt="setting-it-banner">
 
@@ -192,6 +188,16 @@
             </div>
             <!-- end of cubes -->
 
+          </div>
+          <div class="banner__content-container col-6">
+            <div class="banner__content">
+              <h1 class="banner__title">SETTING IT UNICORN</h1>
+              <p class="banner__subtitle">一门心思，做行业的独角兽</p>
+              <button class="button">
+                <span class="button__main-text text-middle">Get Started</span>
+                <span class="button__sub-text text-middle">即时服务，定制专属方案</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -388,8 +394,6 @@
                 </div>
               </div>
             </li>
-          </ul>
-          <ul class="row">
             <li class="col-4">
               <div class="ap__project-item">
                 <div class="ap__project-item-content">
@@ -620,5 +624,3 @@
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
-
-</html>
