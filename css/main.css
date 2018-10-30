@@ -13,7 +13,6 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  min-width: 1200px;
   overflow-x: hidden;
  }
 
@@ -101,6 +100,10 @@ button {
 .col-9 {
   float: left;
   width: 75%; }
+
+.tablet-show {
+  display: none;
+}
 
 .button {
   border: 0;
@@ -611,4 +614,38 @@ hr.segment-bar {
 .section__content {
   font-size: 16px;
   line-height: 1.7;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .tablet-show {
+    display: block;
+  }
+
+  .header {
+    padding: 10px 30px;
+  }
+
+  .header__logo {
+    max-width: 170px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .mobile-menu {
+    float: right;
+    padding: 12px;
+  }
+
+  .mobile-menu img {
+    max-width: 40px;
+  }
 }
