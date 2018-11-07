@@ -189,7 +189,8 @@ button {
   .footer__base-info {
     padding: 10px 20px; }
   .footer__qrcode {
-    max-width: 70px; }
+    max-width: 70px;
+    margin-right: 5px }
   .footer__info {
     padding-left: 20px;
     font-size: 12px; }

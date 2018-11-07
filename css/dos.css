@@ -1,0 +1,119 @@
+.header-container {
+	background-image: none;
+	background-color: #333;
+}
+
+.banner {
+	background-image: none;
+	background-color: #eee;
+	color: #000;
+	padding: 60px;
+}
+
+.banner .row {
+	position: static;
+}
+
+.banner__content {
+	max-width: 600px;
+}
+
+.banner__subtitle {
+	max-width: 330px;
+}
+
+.segment-bar {
+	background-color: #000;
+}
+
+.socical-container {
+	margin-top: 40px;
+}
+
+.branding__wrapper {
+	color: #fff;
+	background-color: #000;
+	padding: 60px;
+}
+
+.branding__content {
+	margin: 0;
+}
+
+.features {
+	padding: 60px;
+}
+
+.features h4 {
+	margin: 0;
+	text-decoration: underline;
+}
+
+.features li {
+	margin-bottom: 60px;
+}
+
+.features__ul-left {
+	float: left;
+	text-align: left;
+}
+
+.features__ul-right {
+	float: right;
+	text-align: right;
+}
+
+.use-case {
+	clear: both;
+	background-color: #000;
+	color: #fff;
+	padding: 60px;
+}
+
+.use-case__underline {
+	width: 20px;
+	height: 2px;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.meet-the-team {
+	padding: 60px;
+}
+
+.road-map {
+	background-color: #000;
+	padding: 60px;
+}
+
+.footer-subscribe {
+	float: left;
+	width: 80px;
+}
+
+.email__input {
+	display: block;
+}
+
+.footer-social {
+	text-align: left;
+}
+
+.footer-copyright {
+	float: left;
+}
+
+.footer-ul {
+	float: right;
+	margin: 14px 0;
+}
+
+.footer-ul li{
+	display: inline-block;
+	border-right: 1px solid;
+	padding-right: 5px;
+}
+
+.footer-ul li:last-child {
+	border-right: none;
+}
