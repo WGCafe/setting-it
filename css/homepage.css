@@ -445,6 +445,33 @@
   margin-top: 10px;
 }
 
+.unicorn {
+  background-color: #eee;
+  padding-bottom: 40px;
+}
+
+.unicorn .container {
+  text-align: center;
+}
+
+.unicorn__icon {
+  width: 250px;
+  margin-top: 50px;
+}
+
+.unicorn__subtitle {
+  color: #56c7e7;
+}
+
+.unicorn__introduction {
+  width: 85%;
+  background: #fff;
+  padding: 20px 100px;
+  margin: 0 auto;
+  border-bottom: 2px solid #56c7e7;
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .branding {
     padding: 0;
