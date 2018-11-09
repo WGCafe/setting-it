@@ -115,7 +115,7 @@ button {
     display: inline-block;
     background: -moz-linear-gradient(left, #3b1961, #372da5);
     /*Mozilla*/
-    background: -webkit-graadient(linear, 0 50%, 100% 50%, from(#3b1961), to(#372da5));
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#3b1961), to(#372da5));
     /*Old gradient for webkit*/
     background: -webkit-linear-gradient(left, #3b1961, #372da5);
     /*new gradient for Webkit*/
