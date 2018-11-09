@@ -109,7 +109,7 @@ button {
   border: 0;
   color: #fff;
   background-color: transparent; }
-  .button span {
+  .button span, .button a {
     padding: 10px 15px; }
   .button__main-text {
     display: inline-block;

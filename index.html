@@ -197,7 +197,14 @@
               <h1 class="banner__title">SETTING IT UNICORN</h1>
               <p class="banner__subtitle">一门心思，做行业的独角兽</p>
               <button class="button">
-                <span class="button__main-text text-middle">Get Started</span>
+                <!-- Modal -->
+                <div id="ex1" class="modal">
+                  <div class="qrcode-cs__container">
+                    <img class="qrcode-cs" src="./img/qrcode-cs.jpg" alt="">
+                  </div>
+                </div>
+                <!-- Link to open the modal -->
+                <a href="#ex1" rel="modal:open" class="button__main-text text-middle">Get Started</a>
                 <span class="button__sub-text text-middle">即时服务，定制专属方案</span>
               </button>
             </div>
@@ -562,9 +569,6 @@
         <div class="footer__base-info">
           <div class="media-top">
             <img class="footer__qrcode" src="./img/qrcode.jpg" alt="">
-          </div>
-          <div class="media-top">
-            <img class="footer__qrcode" src="./img/qrcode-cs.jpg" alt="">
           </div>
           <div class="footer__info media-top">
             <p>Republic Plaza 9 Raffles Place #04-A02 Singapore 048619</p>

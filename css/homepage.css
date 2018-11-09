@@ -416,6 +416,9 @@
   .contact__pic {
     max-width: 110%; }
 
+.contact .subtitle__container {
+  padding-top: 40px;
+}
 /*# sourceMappingURL=homepage.css.map */
 
 .ap__icon-1 {
@@ -447,7 +450,7 @@
 
 .unicorn {
   background-color: #eee;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .unicorn .container {
@@ -456,7 +459,7 @@
 
 .unicorn__icon {
   width: 20%;
-  margin-top: 50px;
+  margin: 70px 0 20px;
 }
 
 .unicorn__subtitle {
@@ -474,6 +477,10 @@
 
 .unicorn__introduction p {
   line-height: 1.5em;
+}
+
+.qrcode-cs__container {
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
@@ -504,6 +511,10 @@
   .contact {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .modal {
+    max-width: 50%;
   }
 }
 
@@ -557,6 +568,10 @@
 
   .ap__project {
     padding: 50px 10px;
+  }
+
+  .qrcode-cs {
+    max-width: 300px;
   }
 }
 
@@ -746,5 +761,21 @@
 
   .contact__pic {
     display: none;
+  }
+
+  .contact .subtitle__container {
+    padding-top: 20px;
+  }
+
+  .unicorn__icon {
+    margin: 60px 0 10px;
+  }
+
+  .unicorn {
+    padding-bottom: 50px;
+  }
+
+  .qrcode-cs {
+    max-width: 200px;
   }
 }
