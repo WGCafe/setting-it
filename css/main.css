@@ -619,6 +619,10 @@ hr.segment-bar {
 
 .modal {
   padding: 0;
+}
+
+#case-modal-populstay.modal,
+#case-modal-dos.modal {
   max-width: 1100px;
 }
 
