@@ -31,6 +31,10 @@
   .banner__content {
     margin: auto;
     max-width: 310px; }
+
+  .en .banner__content {
+    max-width: 420px;
+  }
   .banner__title {
     margin: 0;
     font-size: 42px;
@@ -150,6 +154,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2)";
     /*IE8+*/ }
   .production__learn-more .subtitle__icon{
+    height: 10px;
     transform: scale(0.5,0.5);
     cursor: pointer;
   }
@@ -162,6 +167,7 @@
   }
   .production__download {
     display: none;
+    padding: 30px 0 0;
   }
   .production__download.active {
     display: block;
@@ -241,11 +247,20 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-1, endColorstr=transparent)";
     /*IE8+*/
     border-radius: 20px; }
+
+  .en  .ap__title {
+    font-size: 16px;
+  }
   .ap__advantage-article {
     padding: 0 20px 20px;
     max-width: 400px;
     line-height: 1.7em;
     letter-spacing: 2px; }
+
+  .en .ap__advantage-article {
+      line-height: 1.3em;
+      letter-spacing: 0;
+    }
   .ap__image {
     max-width: 108%; }
   .ap__project {
@@ -280,7 +295,11 @@
     width: 100%; }
   .ap__pic-container {
     position: relative;
-    margin: 8% 0; }
+    margin: 13% 0; }
+
+  .en .ap__pic-container {
+    margin: 16% 0;
+  }
   .ap__project-bg-text {
     position: absolute;
     left: 0;
@@ -450,6 +469,11 @@
   left: 14%;
 }
 
+.en .ap__icon-1 {
+  left: 11%;
+  max-width: 170px;
+}
+
 .ap__icon-2 {
   position: absolute;
   top: -9%;
@@ -462,6 +486,10 @@
   left: 86%;
 }
 
+.en .ap__icon-3 {
+  left: 87%;
+}
+
 .ap__project-icon .icon {
   width: 35px;
 }
@@ -469,6 +497,10 @@
 .ap__project-icon p {
   font-size: 16px;
   margin-top: 10px;
+}
+
+.en .ap__project-icon p {
+  font-size: 12px;
 }
 
 .unicorn {
@@ -672,7 +704,7 @@
   }
 
   .branding__article {
-    margin: 7px 26px;
+    margin: 7px 10px;
   }
 
   .production {
@@ -738,6 +770,31 @@
   .ap__project .col-4 {
     padding: 4px;
     width: 50%;
+  }
+
+  .ap__icon-1 {
+    left: 9%;
+  }
+
+  .en .ap__icon-1 {
+    left: 4%;
+    max-width: 140px;
+  }
+
+  .ap__icon-2 {
+    left: 30%;
+  }
+
+  .en .ap__icon-2 {
+    left: 27%;
+  }
+
+  .en .ap__icon-3 {
+    left: 76%;
+  }
+
+  .unicorn__introduction {
+    padding: 20px;
   }
 
   .client {

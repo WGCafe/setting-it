@@ -34,6 +34,6 @@ $(document).ready(function(){
 
 (function() {
   $('.production__img.subtitle__icon').on('click', function(e) {
-    $('.production__download').toggleClass('active');
+    $('.production__download').slideToggle();
   });
 }());

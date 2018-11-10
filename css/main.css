@@ -2,9 +2,11 @@
   box-sizing: border-box; }
 
 html {
+  width: 100%;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   color: #2e2e2e;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased; }
 
 body {
@@ -136,6 +138,11 @@ button {
   .button__main-text ~ .button__sub-text {
     padding-left: 25px;
     margin-left: -15px; }
+
+    .en .button__main-text ~ .button__sub-text {
+      font-size: 12px;
+      background-size: 120% auto;
+    }
 
 .header {
   padding: 20px;
