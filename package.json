@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "http-server .",
-    "release": "tar zcvf setting-it-$(date +%Y%m%dT%H%M).tar.gz ./*.html ./css/*.css ./js ./img",
+    "release": "tar zcvf setting-it-$(date +%Y%m%dT%H%M).tar.gz ./*.html ./css/*.css ./js ./img ./files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "directories": {
