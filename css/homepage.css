@@ -168,7 +168,9 @@
   }
   .production__divider {
     height: 1px;
-    color: #56c7e7;
+    background-color: #56c7e7;
+    width: 20%;
+    margin: 20px auto;
   }
 
 .advantage {
