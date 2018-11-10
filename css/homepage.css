@@ -149,6 +149,27 @@
     /*IE<9>*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=$theme-color-1, endColorstr=$theme-color-2)";
     /*IE8+*/ }
+  .production__learn-more .subtitle__icon{
+    transform: scale(0.5,0.5);
+    cursor: pointer;
+  }
+  .production__download-hint {
+    padding: 10px;
+  }
+  .production__download-text {
+    color: #56c7e7;
+    cursor: pointer;
+  }
+  .production__download {
+    display: none;
+  }
+  .production__download.active {
+    display: block;
+  }
+  .production__divider {
+    height: 1px;
+    color: #56c7e7;
+  }
 
 .advantage {
   margin: 0 auto;
