@@ -159,6 +159,7 @@
     cursor: pointer;
   }
   .production__download-hint {
+    display: block;
     padding: 10px;
   }
   .production__download-text {
