@@ -607,7 +607,7 @@ In most cases, one `180×180px` touch icon named `icon.png`
 and including:
 
 ```html
-<link rel="apple-touch-icon" href="icon.png">
+<link rel="apple-touch-icon" href="./icon.png">
 ```
 
 in the `<head>` of the page is enough. If you use art-direction and/or
