@@ -9,6 +9,41 @@ body {
   overflow-x: initial;
 }
 
+input {
+  padding: 6px 12px;
+  border: 0;
+  background-color: #efefef;
+  box-shadow: none;
+  outline: none;
+}
+
+button {
+  padding: 6px 12px;
+  border: 0;
+  background-color: #efefef;
+  box-shadow: none;
+  outline: none;
+}
+
+.social__list {
+  display: inline-block;
+}
+
+.social__qrcode {
+  display: inline-block;
+  text-align: center;
+  margin: 0 2px;
+  max-width: 80px;
+}
+
+.social__qrcode img {
+  max-width: 100%;
+}
+
+.social__qrcode span {
+  font-size: 11px;
+}
+
 .banner {
   position: relative;
   padding: 28% 0;
@@ -93,7 +128,7 @@ body {
   padding: 0 40px;
   margin: 50px auto;
   border-top: 2px solid #21cbff;
-  max-width: 1100px;
+  max-width: 1050px;
   font-size: 13px;
 }
 
@@ -189,7 +224,97 @@ body {
   background-color: rgba(242, 242, 242, 0.7);
 }
 
+.contact-us input,
+.contact-us button {
+  display: block;
+  padding: 14px 24px;
+  margin: 10px 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+.contact-us .container {
+  max-width: 1000px;
+}
+
+.contact-us .col-6 {
+  padding: 0 15px;
+}
+
 .contact-us__subtitle {
   margin: auto;
   line-height: 1.7em;
+}
+
+.contact-us__form {
+  padding: 30px 0;
+}
+
+.abroad-header {
+  position: relative;
+  text-align: right;
+  color: #b3b3b3;
+  font-weight: bold;
+}
+
+.abroad-header__logo {
+  position: absolute;
+  max-width: 200px;
+  z-index: 1;
+}
+
+.abroad-header__logo img {
+  max-width: 100%;
+}
+
+.abroad-header .header__nav-item {
+  padding: 12px 0;
+}
+
+.abroad-header .header__nav-item a,
+.abroad-header .header__nav-item > span {
+  display: inline-block;
+  padding: 5px 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.abroad-header .header__nav-item.active a {
+  color: #21cbff;
+  border-bottom-color: #21cbff;
+}
+
+.abroad-footer {
+  padding: 30px 15px;
+  color: #fff;
+  background-color: #21cbff;
+  font-size: 14px;
+}
+
+.abroad-footer__logo-container {
+  float: left;
+  width: 30%;
+}
+
+.abroad-footer__logo {
+  max-width: 120px;
+}
+
+.abroad-footer__logo img {
+  max-width: 100%;
+}
+
+.abroad-footer__info {
+  float: left;
+  padding-top: 40px;
+  width: 35%;
+}
+
+.abroad-footer__info-item {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.abroad-footer .social {
+  float: left;
+  width: 35%;
 }

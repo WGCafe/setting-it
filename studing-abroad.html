@@ -26,31 +26,34 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <header>
-    <div>
-      <img src="" alt="">
+  <header class="abroad-header">
+    <div class="container">
+      <div class="abroad-header__logo">
+        <img src="./studing-broad/logo-header.png" alt="">
+      </div>
+      <ul>
+        <li class="header__nav-item text-middle active">
+          <a href="">首页</a>
+        </li>
+        <li class="header__nav-item text-middle">
+          <a href="">关于公司</a>
+        </li>
+        <li class="header__nav-item text-middle">
+          <a href="">项目介绍</a>
+        </li>
+        <li class="header__nav-item text-middle">
+          <a href="">联系我们</a>
+        </li>
+        <li class="header__nav-item text-middle">
+          <input type="text"/>
+        </li>
+        <li class="header__nav-item text-middle">
+          <a class="text-middle" href="">中</a>
+          <span class="text-middle">|</span>
+          <a class="text-middle" href="">英</a>
+        </li>
+      </ul>
     </div>
-    <ul>
-      <li class="header__nav-item text-middle">
-        <a href="">首页</a>
-      </li>
-      <li class="header__nav-item text-middle">
-        <a href="">关于公司</a>
-      </li>
-      <li class="header__nav-item text-middle">
-        <a href="">项目介绍</a>
-      </li>
-      <li class="header__nav-item text-middle">
-        <a href="">联系我们</a>
-      </li>
-      <li class="header__nav-item text-middle">
-        <input type="text"/>
-      </li>
-      <li class="header__nav-item text-middle">
-        <a href="">中</a>
-        <a href="">英</a>
-      </li>
-    </ul>
   </header>
 
   <!-- banner -->
@@ -159,7 +162,7 @@
     <div class="container">
       <h2 class="subtitle">联系我们</h2>
       <p class="contact-us__subtitle">思一独角兽的新加坡名企游学课程欢迎您的咨询，如果有任何问题和需求，请联系我们，我们会尽快答复您。 </p>
-      <form action="">
+      <form class="contact-us__form" action="">
         <div class="row">
           <div class="col-6">
             <input type="text" placeholder="姓名">
@@ -188,23 +191,77 @@
   </section>
   <!-- end of contact us -->
 
-  <footer>
-    <div>
-      <img src="" alt="">
-    </div>
-    <div></div>
-    <div>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <img src="" alt="">
-      <img src="" alt="">
+  <footer class="abroad-footer">
+    <div class="container row">
+      <div class="abroad-footer__logo-container">
+        <div class="abroad-footer__logo">
+          <img src="./studing-broad/logo-footer.png" alt="">
+        </div>
+      </div>
+      <div class="abroad-footer__info text-center">
+        <ul>
+          <li class="abroad-footer__info-item">
+            <a class="social__item text-middle" href="">
+              <img src="./studing-broad/social-phone.png" alt="">
+            </a>
+            <span class="text-middle">+65 83190680</span>
+          </li>
+          <li class="abroad-footer__info-item">
+            <a class="social__item text-middle" href="">
+              <img src="./studing-broad/social-email.png" alt="">
+            </a>
+            <span class="text-middle">info@settingit.sg</span>
+          </li>
+        </ul>
+        <p>Republic Plaza 9 Raffles Place #04-A02  Singapore 048619</p>
+      </div>
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="">
+              <img src="./studing-broad" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="">
+              <img src="./studing-broad/social-reddit.png" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="">
+              <img src="./studing-broad/social-github.png" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="">
+              <img src="./studing-broad/social-twitter.png" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="">
+              <img src="./studing-broad/social-telegram.png" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="">
+              <img src="./studing-broad/social-wechat.png" alt="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="">
+              <img src="./studing-broad/social-email.png" alt="">
+            </a>
+          </li>
+        </ul>
+        <div class="social__qrcode">
+          <img src="./studing-broad/social-qrcode-1.jpg" alt="">
+          <span>客服酷酷微信号</span>
+        </div>
+        <div class="social__qrcode">
+          <img src="./studing-broad/social-qrcode-2.jpg" alt="">
+          <span>客服萌萌微信号</span>
+        </div>
+      </div>
     </div>
   </footer>
 
@@ -215,9 +272,6 @@
     window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
   </script>
   <script src="js/plugins.js"></script>
-  <script src="js/vendor/jquery.modal.min.js"></script>
-  <script src="js/vendor/owl.carousel.min.js"></script>
-  <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
