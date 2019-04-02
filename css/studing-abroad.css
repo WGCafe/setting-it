@@ -283,6 +283,10 @@ button {
   border-bottom-color: #21cbff;
 }
 
+.abroad-header input {
+  border-radius: 6px;
+}
+
 .abroad-footer {
   padding: 30px 15px;
   color: #fff;
