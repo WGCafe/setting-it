@@ -168,6 +168,18 @@
             <input type="text" placeholder="姓名">
           </div>
           <div class="col-6">
+            <div class="dropdown">
+              <a class="dropdown-toggle">
+                <span>国家</span>
+                <i class="caret">
+                  <img src="./studing-broad/drop-down.png" alt="">
+                </i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>Hong Kong</li>
+                <li>Singapore</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -272,6 +284,14 @@
     window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
   </script>
   <script src="js/plugins.js"></script>
+  <script>
+    $(function() {
+      $('.dropdown').on('click', function() {
+        $(this).toggleClass('open');
+        $(this).find('.dropdown-menu').toggle();
+      });
+    });
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
