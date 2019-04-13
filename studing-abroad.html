@@ -311,6 +311,23 @@
         $(this).toggleClass('open');
         $(this).find('.dropdown-menu').toggle();
       });
+
+      $('.course__item').on('mouseover', function() {
+        const imageEls = $('.course__item').find('.course__image');
+
+        $('.course__item').removeClass('active');
+
+        imageEls.each(function() {
+          const imageSrc = $(this).attr('src').replace('-b.png', '-g.png');
+
+          $(this).attr('src', imageSrc);
+        });
+
+        const activeImageSrc = $(this).find('.course__image').attr('src').replace('-g.png', '-b.png');
+
+        $(this).addClass('active');
+        $(this).find('.course__image').attr('src', activeImageSrc);
+      });
     });
   </script>
 
