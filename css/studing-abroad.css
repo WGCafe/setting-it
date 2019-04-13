@@ -164,12 +164,26 @@ button {
   line-height: 1.7em;
 }
 
-.course__list {
+.course__list-container {
   padding: 0 40px;
   margin: 50px auto;
-  border-top: 2px solid #21cbff;
   max-width: 1050px;
+  max-height: 484px;
+  overflow: hidden;
+}
+
+.course__list {
+  width: 1358px;
   font-size: 13px;
+}
+
+.course__list:before {
+  content: "";
+  display: block;
+  margin: 11px 0;
+  height: 2px;
+  width: 100%;
+  background-color: #21cbff;
 }
 
 .course__list:after {
@@ -179,14 +193,20 @@ button {
 }
 
 .course__item {
+  position: relative;
   float: left;
   width: 20%;
+  max-width: 194px;
 }
 
 .course__item:before {
   content: "";
+  position: absolute;
+  top: -24px;
+  left: 0;
+  right: 0;
   display: block;
-  margin: -12px auto 0;
+  margin: 0 auto;
   border: 2px solid #21cbff;
   width: 20px;
   height: 20px;
@@ -232,6 +252,7 @@ button {
   margin: 0 auto;
   max-width: 114px;
   color: #b3b3b3;
+  opacity: 0;
   list-style: disc;
 }
 
@@ -257,6 +278,7 @@ button {
 
 .course__item.active .course__sublist {
   color: #4d4d4d;
+  opacity: 1;
 }
 
 .contact-us {
